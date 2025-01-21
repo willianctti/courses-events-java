@@ -22,7 +22,6 @@ public class Event {
     @Id
     @GeneratedValue
     private UUID id;
-
     private String title;
     private String description;
     private String imgUrl;
